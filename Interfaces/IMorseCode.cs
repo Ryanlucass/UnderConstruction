@@ -8,8 +8,8 @@ namespace UnderConstruction.Interfaces
 {
     public interface IMorseCode
     {
-        public string Decode(string code, string result);
+        public string Decode(string code);
 
-        public string Encoder(string code, string result);
+        public string Encoder(string code);
     }
 }
