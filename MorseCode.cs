@@ -12,33 +12,24 @@ namespace UnderConstruction
         {
             _Dict = pairs;
         }
+        /// <summary>
+        /// Traduz o código morse
+        /// </summary>
+        /// <param name="code">código morse completo</param>
+        /// <returns></returns>
+        public string Decode(string code) => string.Join("", code.Split(" ").Select(x => _Dict.GetValueOrDefault(x)).ToList());
 
-            public  string Decode(string code)
-            {
-                string[] ArrayCode = code.Split(" ");
-
-                string result = "";
-                foreach (var i in ArrayCode)
-                {
-                    if (_Dict.TryGetValue(i, out string value))
-                    {
-                        result += value;
-                    }
-                }
-                return result;
-            }
-
+        /// <summary>
+        /// Codificado o código morse
+        /// </summary>
+        /// <param name="code"></param>
+        /// <returns></returns>
         public string Encoder(string code)
         {
             List<string> Arrayname = new List<string>();
 
-            //for (int i = 0; i<code.Length; i++)
-            //{
-            //    Arrayname.Add(code.Substring(i, 1));
-            //}
-
             var result = string.Join("", Arrayname.Select(s => _Dict.FirstOrDefault(f => f.Value == s.ToUpper()).Key));
-       
+
             return result;
         } 
     }
