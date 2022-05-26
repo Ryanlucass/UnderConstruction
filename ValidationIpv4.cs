@@ -8,17 +8,14 @@ namespace UnderConstruction
     public class ValidationIpv4 {
         public static void  ValidationIpv4Regex(List<string> endereco)
         {
-            List<string> teste = new List<string>();
             //var result = string.Join("", endereco.Select(i=> ));
-            foreach(var i in endereco)
-            {
-                var result = Regex.Match(i, "[1-2][1-9][1-9][.][1-2][1-9][1-9][.][1-2][1-9][1-9][.][1-2][1-9][1-9]");
 
+                string regex = @"^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$";
 
-                Console.WriteLine($"{i} = {result.Success}");
-            }
+           
+                var resultado = endereco.Select(x=> Regex.IsMatch(x, regex)).ToList();
 
-                //var result = string.Join("", Arrayname.Select(s => _Dict.FirstOrDefault(f => f.Value == s.ToUpper()).Key));
+               
         }
     }
 }
