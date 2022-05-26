@@ -11,9 +11,10 @@ namespace UnderConstruction
             List<string> teste = new List<string>();
             //var result = string.Join("", endereco.Select(i=> ));
             foreach(var i in endereco)
-            {                
-                var result = Regex.Match(i, "[1-2][1-5][1-5][.]{2}[1-2][1-5][1-5]");
- 
+            {
+                var result = Regex.Match(i, "[1-2][1-9][1-9][.][1-2][1-9][1-9][.][1-2][1-9][1-9][.][1-2][1-9][1-9]");
+
+
                 Console.WriteLine($"{i} = {result.Success}");
             }
 
