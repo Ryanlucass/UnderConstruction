@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace UnderConstruction
 {
     public class ValidationIpv4 {
-        public static void  ValidationIpv4Regex(List<string> endereco)
+        public static void ValidationIpv4Regex(List<string> endereco)
         {
             //var result = string.Join("", endereco.Select(i=> ));
 
