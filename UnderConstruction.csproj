@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="TestBuild\**" />
+    <EmbeddedResource Remove="TestBuild\**" />
+    <None Remove="TestBuild\**" />
+  </ItemGroup>
+
 </Project>
