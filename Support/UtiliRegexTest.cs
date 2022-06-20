@@ -2,7 +2,7 @@
 
 namespace UnderConstruction.Mock
 {
-    public static class ValidationIpv4Test
+    public static class UtiliRegexTest
     {
         public static List<string> EnderecoIpv4
         {
@@ -19,6 +19,21 @@ namespace UnderConstruction.Mock
                 "195.299.299.298",
                 "333.333.333.333"
               };  
+            }
+        }
+
+        public static List<string> FrasesPangram
+        {
+            get
+            {
+                return new List<string>()
+                {
+                    "abcdefghijklmnopqrstuvxyz",
+                    "aaawerwjkhdsfs",
+                    "aslçdkfji",
+                    "The quick brown fox jumps over the lazy dog",
+                    "ssljkfhudf"
+                };
             }
         }
     }

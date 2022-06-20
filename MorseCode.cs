@@ -6,11 +6,24 @@ namespace UnderConstruction
 {
     public partial class MorseCode : IMorseCode
     {
+        public string Text
+        {
+            get
+            {
+                return "\n\n01 - Traduzir código Morse";
+            }
+            set { }
+        }
+        
         private Dictionary<string, string> _Dict { get; set; }
 
         public MorseCode(Dictionary<string, string> pairs)
         {
             _Dict = pairs;
+        }
+        public MorseCode()
+        {
+
         }
         /// <summary>
         /// Traduz o código morse
