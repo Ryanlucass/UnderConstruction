@@ -4,7 +4,7 @@ using UnderConstruction.Interfaces;
 
 namespace UnderConstruction
 {
-    public partial class MorseCode : IMorseCode
+    public partial class MorseCode : IConector
     {
         public string Text
         {
@@ -14,6 +14,7 @@ namespace UnderConstruction
             }
             set { }
         }
+        public string UrlKata { get  => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
         
         private Dictionary<string, string> _Dict { get; set; }
 

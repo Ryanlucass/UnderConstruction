@@ -6,8 +6,9 @@ namespace UnderConstruction.Mock
     {
         public static List<string> EnderecoIpv4
         {
-            get 
-            { return new List<string>() {
+            get
+            {
+                return new List<string>() {
                 "1.2.3",
                 "1.2.3.4.5",
                 "123.456.78.90",
@@ -18,7 +19,7 @@ namespace UnderConstruction.Mock
                 "123.194.123.255",
                 "195.299.299.298",
                 "333.333.333.333"
-              };  
+              };
             }
         }
 
