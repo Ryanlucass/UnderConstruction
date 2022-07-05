@@ -3,7 +3,9 @@
 # 🏗 o que é o UnderConstruction?
 É um conjunto de bibliotecas de clases que visa treinar e manipular exercícos executados pelo site Codewars. Atualmente feito em C# para treinamento de lógica de programação.
 
- <img src="https://www.canva.com/design/DAFFlIpJgSM/view" alt="aunderconstruction"/>
+ <img src="./Underconstruction.png" alt="aunderconstruction"/>
+
+
   <div> 
   <a href="https://www.youtube.com/user/cursosemvideo" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="https://instagram.com/lluasalvestr" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
