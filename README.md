@@ -12,7 +12,6 @@
   <a href = "mailto:lucasryanalves@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/lucas-alves-55b925182/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href="https://www.twitch.tv/calivem" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
- <img src="https://img.shields.io/github/watchers/Ryanlucass/MoviesApi?style=social" target="-blank">
 </div>
 
  # Tecnologias utilizazdas 
