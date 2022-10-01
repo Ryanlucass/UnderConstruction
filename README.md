@@ -14,6 +14,13 @@
   <a href="https://www.twitch.tv/calivem" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
 </div>
 
- # Tecnologias utilizazdas 
-  ---
+ ### Tecnologias utilizazdas 
 - C# (ASP NET Core 5)
+
+### Tópicos
+* Traduzindo código morse 
+* Somatoria de números primos passados 
+* (BoucingBals) Problema de lógica
+* Validação de IPV4 com Regex
+
+
